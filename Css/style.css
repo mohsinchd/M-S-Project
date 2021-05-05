@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-fluid > a {
+  font-size: 1.5rem;
+}
+
+#navigation {
+  background: teal;
+  border-bottom: #007bff 4px solid;
+}
+
+.mine-button:hover {
+  background: #fff;
+  color: #333;
+}
+
+#navigation .nav-item {
+  padding: 0 0.75rem !important;
+}
+
+#navigation .nav-item:hover {
+  border-bottom: 1px solid #fff;
+}
+
+#show-case {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 150px;
+  background: rgb(0, 128, 128);
+  background: rgb(0, 128, 128);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 128, 128, 1) 0%,
+    rgba(255, 255, 255, 1) 100%,
+    rgba(240, 252, 251, 1) 100%
+  );
+}
+
+.mine-heading {
+  font-weight: bold;
+  color: teal;
+}
+
+#our-work {
+  margin: 0 1rem;
+}
+
+#boxes #box1 {
+  margin: 0 0.5rem;
+  background: teal;
+  border-radius: 20px;
+}
+
+#boxes #box2 {
+  margin: 0 0.5rem;
+  background: teal;
+  border-radius: 20px;
+}
+
+#boxes #box3 {
+  margin: 0 0.5rem;
+  background: teal;
+  border-radius: 20px;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+  background: teal;
+}
+
+#footer p {
+  margin: 0;
+}
+
+#contact li {
+  cursor: pointer;
+}
